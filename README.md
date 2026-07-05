@@ -1,156 +1,109 @@
 # 🧠 MindWatch
 
-A machine learning-based web application that analyzes user-provided social media text to identify potential signs of anxiety and depression using Natural Language Processing (NLP) and TF-IDF feature extraction.
+A web-based mental health screening tool that helps users identify potential signs of anxiety and depression through guided questionnaires and free-text responses.
 
----
-
-## 📖 Overview
-
-MindWatch is a web application developed to assist in the early identification of potential mental health concerns through text analysis. Users provide text describing their thoughts or feelings, and the system analyzes it using a trained machine learning model. Based on the prediction, a dynamic questionnaire is presented to provide a more comprehensive assessment of the user's mental well-being. The application also generates a downloadable PDF report summarizing the analysis.
-
-> **Disclaimer:** This project is intended for educational and awareness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.
+> **Disclaimer:** This is a screening tool and not a substitute for professional medical diagnosis.
 
 ---
 
 ## ✨ Features
 
-- Analyze user-provided text using Machine Learning
-- Detect potential signs of Depression, Anxiety, or Normal mental state
-- Dynamic questionnaire based on initial text analysis
-- Overall mental well-being assessment
+- Free-text emotion analysis
+- Dynamic mental health questionnaire
+- Anxiety & Depression assessment
+- Risk level prediction
+- Personalized support resources
 - Downloadable PDF report
-- Mental health support resources
-- Simple and responsive web interface
+- Responsive and user-friendly interface
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-### Frontend
-- HTML
-- CSS
-
-### Backend
 - Python
 - Flask
-
-### Machine Learning
+- HTML
+- CSS
+- JavaScript
 - Scikit-learn
-- Pandas
 - TF-IDF Vectorizer
 - Logistic Regression
+- ReportLab
 
 ---
 
-## 🧠 Machine Learning Workflow
+# 📸 Screenshots
 
-1. User enters text.
-2. Text is preprocessed.
-3. TF-IDF converts text into feature vectors.
-4. Logistic Regression predicts the mental health category.
-5. A questionnaire is generated based on the prediction.
-6. Questionnaire responses are evaluated.
-7. Overall assessment and PDF report are generated.
+## Landing Page
+
+![Landing](Screenshot/landing.png)
 
 ---
 
-## 📂 Project Structure
+## Features
 
-```text
-MindWatch/
-│
-├── static/
-├── templates/
-├── app.py
-├── model.pkl
-├── train_model.py
-├── requirements.txt
-├── dataset.csv
-├── .gitignore
-└── README.md
-```
+![Features](Screenshot/features.png)
 
 ---
 
-## 🚀 Installation
+## User Details
 
-Clone the repository
-
-```bash
-git clone https://github.com/arthana3084/MindWatch.git
-```
-
-Navigate to the project folder
-
-```bash
-cd MindWatch
-```
-
-Install the required packages
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-python app.py
-```
-
-Open your browser and visit
-
-```
-http://localhost:5000
-```
+![User Details](Screenshot/userdetails.png)
 
 ---
 
-## 📊 Dataset
+## Assessment Mode
 
-The machine learning model was trained using a publicly available mental health dataset from Kaggle. The dataset was filtered to include three categories:
-
-- Depression
-- Anxiety
-- Normal
+![Mode](Screenshot/choicemode.png)
 
 ---
 
-## 📸 Screenshots
+## Text Analysis
 
-Screenshots of the application are available in the **Screenshots** folder.
-
-- Home Page
-- User Details
-- Text Input
-- Dynamic Questionnaire
-- Analysis Result
-- PDF Report
+![Text Analysis](Screenshot/textanalysis.png)
 
 ---
 
-## 🔮 Future Enhancements
+## Anxiety Questionnaire
+
+![Questionnaire](Screenshot/anxietychecklist.png)
+
+---
+
+## Assessment Results
+
+![Results](Screenshot/results.png)
+
+---
+
+## Detailed Result
+
+![Detailed Result](Screenshot/result1.png)
+
+---
+
+## Recommended Support
+
+![Support](Screenshot/support.png)
+
+---
+
+## Downloadable PDF Report
+
+![PDF Report](Screenshot/report.png)
+
+---
+
+## 🚀 Future Enhancements
 
 - User authentication
-- Cloud database integration
-- Deep learning-based text classification
-- Multi-language support
-- Personalized recommendations
-- Mobile application
+- Assessment history
+- Progress tracking
+- Better prediction model
+- Cloud deployment
 
 ---
 
-## 👥 Team
+## 👩‍💻 Developed By
 
-**Team Lead**
-- Arthana Sreekesh
-
-**Team Members**
-- Arsha Biju Thottathil
-- Hridhya Sara Sunil
-
----
-
-## 📄 License
-
-This project was developed as part of a B.Tech Mini Project for educational purposes.
+**Arthana Sreekesh(TEAM LEAD), Arsha Biju Thottathil, Hridhya Sara Sunil**
